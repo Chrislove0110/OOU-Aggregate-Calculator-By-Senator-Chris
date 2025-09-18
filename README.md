@@ -6,10 +6,9 @@ OOU Aggregate Calculator By Senator Chris.
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>OOU Aggregate Calculator by Senator Chris</title>
+  <title> OOU Aggregate Calculator by Senator Chris </title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
+    body { font-family: Arial, sans-serif;
       background: linear-gradient(to right, #00c6ff, #0072ff);
       color: #333;
       display: flex;
@@ -88,10 +87,11 @@ OOU Aggregate Calculator By Senator Chris.
     <label for="jamb">JAMB Score:</label>
     <input type="number" id="jamb" max="400" placeholder="Enter JAMB score (0-400)">
 
-    <label for="post">Post-UTME Score:</label>
+   
+  <label for="post">Post-UTME Score:</label>
     <input type="number" id="post" max="100" placeholder="Enter Post-UTME score (0-100)">
 
-    <button onclick="calculate()">Calculate</button>
+   <button onclick="calculate()">Calculate</button>
     <p id="result"></p>
   </div>
 
