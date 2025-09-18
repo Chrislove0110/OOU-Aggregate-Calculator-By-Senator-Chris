@@ -109,7 +109,7 @@
 
       let aggregate = (jamb / 400 * 60) + (post / 100 * 40);
       document.getElementById("result").innerText =
-        "Candidate's Aggregate: " + aggregate.toFixed(2);
+        "Weldone,Your Aggregate is: " + aggregate.toFixed(2);
     }
   </script>
 </body>
